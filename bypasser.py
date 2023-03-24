@@ -20,13 +20,13 @@ import ddl
 ##########################################################
 # ENVs
 
-GDTot_Crypt = os.environ.get("CRYPT","b0lDek5LSCt6ZjVRR2EwZnY4T1EvVndqeDRtbCtTWmMwcGNuKy8wYWpDaz0%3D")
+GDTot_Crypt = os.environ.get("CRYPT","Y2FZL0pGUThXZ3lPRkhJU1hhbEo1UmJFc0JWYzNPbTBnL1NpeW8xc0ROZz0%3D")
 Laravel_Session = os.environ.get("Laravel_Session","")
 XSRF_TOKEN = os.environ.get("XSRF_TOKEN","")
 DCRYPT = os.environ.get("DRIVEFIRE_CRYPT","")
-KCRYPT = os.environ.get("KOLOP_CRYPT","aWFicnVaNWh4TThRbzFqdkE2U2FKNmJOTWhvWkZmbWswaUFadTB5NXJ3RT0%3D")
-HCRYPT = os.environ.get("HUBDRIVE_CRYPT","Q29hdlpLUEZTSEJLUjVZRkZQSExLODFuWGVudUlNK0ZPZlZmS1hENWxZVT0%3D")
-KATCRYPT = os.environ.get("KATDRIVE_CRYPT","")
+KCRYPT = os.environ.get("KOLOP_CRYPT","L1Z2aUN6MENYdkZTV2FWVzlEblZLcDYzV05KUVN2WWRDaEdOY2JVRjZmRT0%3D")
+HCRYPT = os.environ.get("HUBDRIVE_CRYPT","SFVTM1ova0kyenY4WkVURldHWm5DdG84L1dLaXN5K1BvMklKVTl0ek8zTT0%3D")
+KATCRYPT = os.environ.get("KATDRIVE_CRYPT","L1Z2aUN6MENYdkZTV2FWVzlEblZLcDYzV05KUVN2WWRDaEdOY2JVRjZmRT0%3D")
 
 
 ############################################################
@@ -1405,8 +1405,8 @@ def unified(url):
         else: return ddl.sharer_scraper(url)
 
     try:
-        Email = "OPTIONAL"
-        Password = "OPTIONAL"
+        Email = "chammii@krkasm.com"
+        Password = "corona@2020ind"
 
         account = {"email": Email, "passwd": Password}
         client = cloudscraper.create_scraper(allow_brotli=False)
